@@ -16,6 +16,9 @@ namespace HelloWorldApplication
             Console.WriteLine(c);
             Console.WriteLine(d);
 
+            //输入数据
+            string str = Console.ReadLine();
+            Console.WriteLine("str:"+str);
 
             Console.WriteLine("Hello World!");
             Console.WriteLine("The first demo：\"001test\\n\"");
