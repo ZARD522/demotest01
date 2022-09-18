@@ -10,6 +10,7 @@ namespace demotest001
     {
         static void Main(string[] args)
         {
+            //输入数据
             int a = Convert.ToInt32(Console.ReadLine());
             int b = Convert.ToInt32(Console.ReadLine());
 
@@ -26,11 +27,13 @@ namespace demotest001
             Console.Write("交换后：");
             Console.Write("a=" + a + "  ");
             Console.WriteLine("b=" + b);
-
             Console.WriteLine("(" + a + "+" + b + "）" + "/2" + "=" + c);
+
+
             //数字的输出
             int d;
             Console.WriteLine("{0}+{1}={2}", a, b, d = a + b);
+
 
             //输入一个三位整数
             int num = Convert.ToInt32(Console.ReadLine());
